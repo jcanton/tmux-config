@@ -23,13 +23,13 @@ if [ ! -e "$HOME/.tmux/plugins/tpm" ]; then
   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
 
-if [ -e "$HOME/.tmux.conf" ]; then
-  printf "Found existing .tmux.conf in your \$HOME directory. Will create a backup at $HOME/.tmux.conf.bak\n"
-fi
-
-cp -f "$HOME/.tmux.conf" "$HOME/.tmux.conf.bak" 2>/dev/null || true
-cp -a ./tmux/. "$HOME"/.tmux/
-ln -sf .tmux/tmux.conf "$HOME"/.tmux.conf;
+#if [ -e "$HOME/.tmux.conf" ]; then
+#  printf "Found existing .tmux.conf in your \$HOME directory. Will create a backup at $HOME/.tmux.conf.bak\n"
+#fi
+#
+#cp -f "$HOME/.tmux.conf" "$HOME/.tmux.conf.bak" 2>/dev/null || true
+#cp -a ./tmux/. "$HOME"/.tmux/
+#ln -sf .tmux/tmux.conf "$HOME"/.tmux.conf;
 
 # Install TPM plugins.
 # TPM requires running tmux server, as soon as `tmux start-server` does not work

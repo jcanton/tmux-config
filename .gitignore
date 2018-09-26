@@ -3,6 +3,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+*.swp
 
 # Icon must end with two \r
 Icon
@@ -25,4 +26,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-
+# plugins to install at runtime
+tmux/plugins
