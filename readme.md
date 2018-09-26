@@ -1,6 +1,7 @@
 Tmux Configuration
 =====================
 Tmux configuration, that supercharges your [tmux](https://tmux.github.io/) and builds cozy and cool terminal environment.
+Forked from [samoskin](https://github.com/samoshkin/tmux-config).
 
 ![intro](https://user-images.githubusercontent.com/768858/33152741-ec5f1270-cfe6-11e7-9570-6d17330a83aa.gif)
 
