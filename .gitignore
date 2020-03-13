@@ -28,3 +28,6 @@ Temporary Items
 
 # plugins to install at runtime
 tmux/plugins
+
+# resurrect saved sessions
+tmux/resurrect
