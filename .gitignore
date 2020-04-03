@@ -31,3 +31,6 @@ tmux/plugins
 
 # resurrect saved sessions
 tmux/resurrect
+#
+# sidebar
+tmux/sidebar
